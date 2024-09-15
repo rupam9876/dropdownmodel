@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="f6ab743e-adf3-4289-86d0-3ef65f7af4ca">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" >Full Name</label>
+                <input name="name" type="text" class="form-control" id="exampleInputName" required aria-describedby="emailHelp">
+                <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+                <input name="Mobile" type="number" class="form-control" id="exampleInputName" required aria-describedby="emailHelp">
+
+              </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input name="email" type="email" class="form-control" id="exampleInputEmail1"required  aria-describedby="emailHelp">
+                </div>
+                <select name="Course" class="form-select" required aria-label="Default select example">
+                  <option selected>Course</option>
+                  <option value="Diploma">Diploma in Computer Science Engineering</option>
+                  <option value="B.tech CSE">B.Tech/B.E. in Computer Science Engineering</option>
+                  <option value="M.tech cse">M.Tech in Computer Science Engineering</option>
+
+                  <option value="B.tech Mechanical">B.Tech/B.E. in Mechanical Engineering</option>
+                  <option value="Diploma Mechanical">Diploma in Mechanical Engineering</option>
+                  <option value="M.tech Mechanical">M.Tech in Mechanical Engineering</option>
+
+                  <option value="B.tech Electrical">B.Tech/B.E. in Electrical & Electronics Engineering</option>
+                  <option value="Diploma Electrical">Diploma in Electrical & Electronics Engineering</option>
+                  <option value="M.tech Electrical">M.Tech in Electrical & Electronics Engineering</option>
+
+                  <option value="B.tech civil">B.Tech/B.E. in Civil Engineering</option>
+                  <option value="Diploma civil">Diploma in Civil Engineering</option>
+                  <option value="M.tech civil">M.Tech in Civil Engineering</option>
+
+                  <option value="B.tech it">B.Tech/B.E. in Information Technology Engineering</option>
+                  <option value="Diploma it">Diploma in Information Technology Engineering</option>
+                  <option value="M.tech it">M.Tech in Information Technology Engineering</option>
+
+                  <option value="B.tech ece">B.Tech/B.E. in Electronics and Communication Engineering</option>
+                  <option value="Diploma ece">Diploma in Electronics and Communication Engineering</option>
+                  <option value="M.tech ece">M.Tech in Electronics and Communication Engineering</option>
+                  <option value="MBBS">MBBS (Bachelor of Medicine and Bachelor of Surgery)</option>
+                  <option value="BDS">BDS (Bachelor of Dental Surgery)</option>
+                  <option value="BAMS">BAMS (Bachelor of Ayurvedic Medicine and Surgery)</option>
+                  <option value="BHMS">BHMS (Bachelor of Homeopathic Medicine and Surgery)</option>
+                  <option value="BUMS">BUMS (Bachelor of Unani Medicine and Surgery)</option>
+                  <option value="B.SC Nursing">B.Sc. Nursing (Bachelor of Science in Nursing)</option>
+                  <option value="ANM">ANM</option>
+                  <option value="GNM">GNM</option>
+                  <option value="B.Pharm">B.Pharm (Bachelor of Pharmacy)</option>
+                  <option value="Pharm.D">Pharm.D (Doctor of Pharmacy)</option>
+                  <option value="BPT">BPT (Bachelor of Physiotherapy)</option>
+                  <option value="BMLT">BMLT (Bachelor of Medical Laboratory Technology)</option>
+                  <option value="B.Sc. in Medical Laboratory Technology">B.Sc. in Medical Laboratory Technology</option>
+                  <option value="B.Sc. in Radiology & Imaging Technology">B.Sc. in Radiology & Imaging Technology</option>
+                  <option value="B.Optom (Bachelor of Optometry)">B.Optom (Bachelor of Optometry)</option>
+                  <option value="B.Sc. in Nutrition and Dietetics">B.Sc. in Nutrition and Dietetics</option>
+                  <option value="B.Sc. in Food Science & Nutrition">B.Sc. in Food Science & Nutrition</option>
+                  <option value="B.Sc. in Operation Theatre Technology">OTT B.Sc. in Operation Theatre Technology</option>
+                  <option value="B.Sc. in Computer Science">B.Sc. in Computer Science</option>
+                  <option value="BCA (Bachelor of Computer Applications)">BCA (Bachelor of Computer Applications)</option>
+                  <option value="M.Sc. in Computer Science">M.Sc. in Computer Science</option>
+                  <option value="MCA (Master of Computer Applications)">MCA (Master of Computer Applications)</option>
+                  <option value="B.Sc. in Cyber Security">B.Sc. in Cyber Security</option>
+                  <option value="B.Sc. in Agriculture">B.Sc. in Agriculture</option>
+                  <option value="B.Tech in Agricultural Engineering">B.Tech in Agricultural Engineering</option>
+                  <option value="B.Sc. in Biotechnology">B.Sc. in Biotechnology</option>
+                  <option value="B.Sc. in Microbiology">B.Sc. in Microbiology</option>
+                  <option value="B.Sc. in Biochemistry">B.Sc. in Biochemistry</option>
+                  <option value="BBA (Bachelor of Business Administration)">BBA (Bachelor of Business Administration)</option>
+                  <option value="BMS (Bachelor of Management Studies)">BMS (Bachelor of Management Studies)</option>
+                  <option value="BBA in International Business">BBA in International Business</option>
+                  <option value="BBA in Marketing">BBA in Marketing</option>
+                  <option value="BBA in Finance">BBA in Finance</option>
+                  <option value="BBA in Human Resource Management">BBA in Human Resource Management</option>
+                  <option value="BBA in Operations Management">BBA in Operations Management</option>
+                  <option value="MBA (Master of Business Administration)">MBA (Master of Business Administration)</option>
+                  <option value="MBA in Finance">MBA in Finance</option>
+                  <option value="MBA in Marketing">MBA in Marketing</option>
+                  <option value="MBA in Human Resource Management">MBA in Human Resource Management</option>
+                  <option value="MBA in Operations Management">MBA in Operations Management</option>
+                  <option value="BA LLB (Bachelor of Arts + Bachelor of Laws)">BA LLB (Bachelor of Arts + Bachelor of Laws)</option>
+                  <option value="BBA LLB (Bachelor of Business Administration + Bachelor of Laws)">BBA LLB (Bachelor of Business Administration + Bachelor of Laws)</option>
+                  <option value="BSc LLB (Bachelor of Science + Bachelor of Laws)">BSc LLB (Bachelor of Science + Bachelor of Laws)</option>
+                  <option value="LLB (Bachelor of Laws)">LLB (Bachelor of Laws)</option>
+                  <option value="LLM (Master of Laws)">LLM (Master of Laws)</option>
+                  <option value="B.Sc. in Animation">B.Sc. in Animation</option>
+                </select><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
